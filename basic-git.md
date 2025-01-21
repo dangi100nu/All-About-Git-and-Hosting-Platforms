@@ -1,6 +1,6 @@
-# Best Practices for Branching and Commit Messages
+## Best Practices for Branching and Commit Messages
 
-## Branching Best Practices
+### Branching Best Practices
 1. **Common Branch Types:**
    - `feature/`: For new features.
    - `bugfix/`: For fixing bugs.
@@ -15,7 +15,7 @@
 
 ---
 
-## Commit Message Best Practices
+### Commit Message Best Practices
 1. **Common Commit Prefixes:**
    - `feat`: New feature.
    - `fix`: Bug fix.
@@ -30,7 +30,7 @@
    - `feat: add dark mode (ODI-234)`
 
 
-# Differences Between Git Bash, CMD, and PowerShell
+## Differences Between Git Bash, CMD, and PowerShell
 
 - **Git Bash**:  
  it is an application that provides a commond-line interface for git operations on windows.basically it is A Unix-like command-line interface for Windows, designed specifically to work with Git and provide Unix commands like `ls`, `cd`, and `cat`.
@@ -43,71 +43,71 @@
   An advanced scripting environment and shell for Windows, designed for automation and system management, using object-oriented commands like `Get-ChildItem` and `Set-ExecutionPolicy`.
 
 
-# Git Bash Commands with Flags
+## Git Bash Commands with Flags
 
-## File and Directory Management
+### File and Directory Management
 
-### `ls` - List files and directories
+#### `ls` - List files and directories
 - `ls` – List files and directories.
 - `ls -a` – Include hidden files.
 - `ls -l` – List with detailed information (permissions, size, etc.).
 - `ls -la` – Combine `-l` and `-a` to list all files with details.
 
-### `rm` - Remove files or directories
+#### `rm` - Remove files or directories
 - `rm [file]` – Remove a file.
 - `rm -f [file]` – Forcefully remove a file without prompting.
 - `rm -rf [directory]` – Forcefully remove a directory and its contents.
 
-### `mkdir` - Create directories
+#### `mkdir` - Create directories
 - `mkdir [directory_name]` – Create a new directory.
 - `mkdir -p [path/to/directory]` – Create nested directories.
 
-### `pwd` - Print working directory
+#### `pwd` - Print working directory
 - `pwd` – Print working directory..
 
-### `touch` - Create files
+#### `touch` - Create files
 - `touch [file_name]` – Create an empty file.
 
-### `cat` - Display file contents
+#### `cat` - Display file contents
 - `cat [file_name]` – Print file contents.
 
-## System Commands
+### System Commands
 
-### `clear` - Clear terminal screen
+#### `clear` - Clear terminal screen
 - `clear` – Clear terminal output.
 
-### `exit` - Close Git Bash
+#### `exit` - Close Git Bash
 - `exit` – Close the terminal session.
 
 
-# Command Prompt Commands with Flags
+## Command Prompt Commands with Flags
 
-## File and Directory Management
+### File and Directory Management
 
-### `dir` - List files and directories
+#### `dir` - List files and directories
 - `dir` – List files and directories.
 - `dir /a` – Include hidden files.
 
-### `del` - Delete files
+#### `del` - Delete files
 - `del [file]` – Delete a file.
 now we also use rm instead of that.
 
-### `mkdir` - Create directories
+#### `mkdir` - Create directories
 - `mkdir [directory_name]` – Create a new directory.
 
-### `echo` - Create files
+#### `echo` - Create files
 - `echo. > [file_name]` – Create an empty file..
 
-### `type` - Display file contents
+#### `type` - Display file contents
 - `type [file_name]` – Print file contents.
 
-### `cd` - Print working directory
+#### `cd` - Print working directory
 - `cd` – Print working directory.
 
-## System Commands
+### System Commands
 
-### `cls` - Clear terminal screen
+#### `cls` - Clear terminal screen
 - `cls` – Clear terminal output.
 
-### `exit` - Close Command Prompt
+#### `exit` - Close Command Prompt
 - `exit` – Close the terminal session.
